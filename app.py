@@ -49,7 +49,7 @@ def run_gradio():
     )
 
     # Launch Gradio interface on port 5000
-    interface.launch(server_port=5000, share=True)
+    interface.launch(server_port=4000, share=True)
 
 run_gradio()
 
